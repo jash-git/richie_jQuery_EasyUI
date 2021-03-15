@@ -7,7 +7,8 @@
 5.[jQuery EasyUI]第5章 Resizable(調整大小)元件
 6.[jQuery EasyUI]第6章 Tooltip(提示框)組件
 7.[jQuery EasyUI]第7章 LinkButton(按鈕)元件
-8.[jQuery EasyUI]第8章 ProgressBar(進度條)元件9.[jQuery EasyUI]第9章 Panel(面板)組件[上]
+8.[jQuery EasyUI]第8章 ProgressBar(進度條)元件
+9.[jQuery EasyUI]第9章 Panel(面板)組件[上]
 10.[jQuery EasyUI]第9章 Panel(面板)組件[下]
 11.[jQuery EasyUI]第10章 Tabs(選項卡)元件[上]
 12.[jQuery EasyUI]第10章 Tabs(選項卡)元件[下]
