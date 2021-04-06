@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Easy UI</title>
+<meta charset="UTF-8" />
+<script type="text/javascript" src="../../easyui_15/jquery.min.js"></script>
+<script type="text/javascript" src="../../easyui_15/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../../easyui_15/locale/easyui-lang-zh_TW.js" ></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../easyui_15/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="../../easyui_15/themes/icon.css" />
+
+</head>
+<body>
+
+
+<div id="box" style="width:600px;height:400px;">
+	<div data-options="
+		region:'north',
+		title:'上北',
+		border : true,
+		split : true,
+		iconCls : 'icon-save',
+		href : 'content.html',
+		collapsible : false,
+		maxHeight : 100,
+	" style="height:200px;"></div>
+	<div data-options="region:'south',title:'下南',split : true," style="height:100px;"></div>
+	<div data-options="region:'west',title:'左西',split : true," style="width:100px;"></div>
+	<div data-options="region:'east',title:'右东',split : true," style="width:100px;"></div>
+	<div data-options="region:'center',title:'中间'"></div>
+</div>
+
+
+
+</body>
+</html>
