@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Easy UI</title>
+<meta charset="UTF-8" />
+<script type="text/javascript" src="../../easyui_15/jquery.min.js"></script>
+<script type="text/javascript" src="../../easyui_15/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../../easyui_15/locale/easyui-lang-zh_TW.js" ></script>
+
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../easyui_15/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="../../easyui_15/themes/icon.css" />
+<script type="text/javascript">
+	function qq(name, value) {
+		alert(name + '-' + value);
+	}
+</script>
+</head>
+<body>
+
+<!--
+<div class="easyui-searchbox" style="width:300px;"
+data-options="menu:'#box',prompt:'请输入关键字',searcher:qq"></div>
+-->
+<div id="ss"></div>
+
+<div id="box">
+	<div data-options="iconCls:'icon-ok'">所有频道</div>
+	<div name="sports">体育频道</div>
+</div>
+
+
+</body>
+</html>
